@@ -29,7 +29,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return nombre + " tiene" + this.carros.size() +" carros";
+        return nombre + " tiene " + this.carros.size() +" carros";
     }
     
 }
