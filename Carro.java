@@ -17,7 +17,7 @@ public class Carro {
 
     public Carro(String linea, Rueda[] ruedas, Motor motor) {
         this.linea = linea;
-        this.ruedas = new Rueda[4];
+        this.ruedas = ruedas;
         this.motor = motor;
         this.chasis = new Chasis();
     }
