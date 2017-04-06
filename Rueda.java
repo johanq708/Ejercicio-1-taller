@@ -36,7 +36,7 @@ public class Rueda {
 
     @Override
     public String toString() {
-        return " de tamaño" + tamaño + " y de marca: " + marca;
+        return " de tamaño " + tamaño + " y de marca: " + marca;
     }
     
 }
