@@ -29,7 +29,7 @@ public class Carro {
 
     @Override
     public String toString() {
-        return "Carro es: " + linea + ", sus ruedas son" + ruedas.toString() + ", su motor es " + motor.toString() + " y su chasis es" + chasis.toString() ;
+       return "Carro es: " + linea + ", su motor es " + motor.toString() + ", su chasis es" + chasis.toString() + " y sus ruedas son" + ruedas[0].toString();
     }
     
 }
